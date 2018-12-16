@@ -147,7 +147,7 @@ class BacktrackingDurchLabyrinth():
 			elif y-1 > 0 and self.spielfeld[x][y-1] != '*' and y_alt != y-1 and self.bereits_besucht[x][y-1] != '1' and self.schritt(x,y-1,x,y):
 				return 1
 			#Analog zu oben gehe nach links oben
-			#elif x-1 > 0  and y-1 > 0 and self.spielfeld[x-1][y-1] != '*' and x_alt != x-1 and y_alt != y-1 and self.bereits_besucht[x-1][y-1] != '1' and self.schritt(x-1, y-1, x,y):
+			elif x-1 > 0  and y-1 > 0 and self.spielfeld[x-1][y-1] != '*' and x_alt != x-1 and y_alt != y-1 and self.bereits_besucht[x-1][y-1] != '1' and self.schritt(x-1, y-1, x,y):
 				return 1
 			
 				
