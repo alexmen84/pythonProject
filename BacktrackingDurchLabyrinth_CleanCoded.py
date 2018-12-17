@@ -1,6 +1,7 @@
 import sys
 from random import randint
 
+# hier wurden richtige Dinge getan..
 
 class BacktrackingDurchLabyrinth():
 	"""
