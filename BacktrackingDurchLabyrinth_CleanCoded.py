@@ -2,7 +2,6 @@ import sys
 from random import randint
 
 # hier wurden richtige Dinge getan..
-# neue Änderung für neuen Commit..
 
 class BacktrackingDurchLabyrinth():
 	"""
